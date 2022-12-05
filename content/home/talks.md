@@ -7,10 +7,10 @@ widget: collection
 headless: true
 
 # Order that this section appears on the page.
-weight: 70
+weight: 30
 
 title: 'Recent & Upcoming Talks'
-subtitle:
+subtitle: '[SEE ALL EVENTS](./event/)'
 
 content:
   # Page type to display. E.g. post, event, publication...
@@ -21,7 +21,7 @@ content:
   filters:
     author: ''
     category: ''
-    tag: ''
+    tag: 'talk'
     exclude_featured: false
     exclude_future: false
     exclude_past: false
@@ -30,7 +30,11 @@ content:
   offset: 0
   # Page order: descending (desc) or ascending (asc) date.
   order: desc
-
+  archive:
+    enable: true
+    text: SEE ALL EVENTS
+    link: event/
+    
 design:
   # Choose a view for the listings:
   #   1 = List

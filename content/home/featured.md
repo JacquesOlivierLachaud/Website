@@ -7,10 +7,10 @@ widget: collection
 headless: true
 
 # Order that this section appears on the page.
-weight: 80
+weight: 20
 
 title: Featured Publications
-subtitle: ''
+subtitle: '[See all publications](./publication/)'
 
 content:
   # Page type to display. E.g. post, talk, publication...
@@ -20,7 +20,7 @@ content:
   # Filter on criteria
   filters:
     featured_only: true
-    author: ''
+    author: admin
     category: ''
     publication_type: ''
     tag: ''
@@ -34,4 +34,6 @@ design:
   #   3 = Card
   #   4 = Citation (publication only)
   view: 3
+  columns: '2'
+  
 ---

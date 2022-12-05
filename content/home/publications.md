@@ -7,10 +7,10 @@ widget: collection
 headless: true
 
 # Order that this section appears on the page.
-weight: 90
+weight: 25
 
 title: Recent Publications
-subtitle: ''
+subtitle: '[SEE ALL PUBLICATIONS](./publication/)'
 
 content:
   # Filter on criteria
@@ -25,13 +25,13 @@ content:
     exclude_future: false
     exclude_past: false
   # Choose how many pages you would like to display (0 = all pages)
-  count: 0
+  count: 15
   # Choose how many pages you would like to offset by
   offset: 0
   # Page order: descending (desc) or ascending (asc) date.
   order: desc
 design:
-  # Choose a view for the listings:
+  # Choose a view for the listings: citation
   view: citation
   columns: '2'
 ---
